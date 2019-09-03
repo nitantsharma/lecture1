@@ -2,22 +2,55 @@
 <html>
     <head>
         <title>My Webpage</title>
+        <style>
+            table {
+                border: 2x solid black;
+                border-collapse: collapse;
+                width: 50%;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+            th {
+                background-color: lightgray;
+            }
+        </style>
     </head>
     <body>
         Hello, world!
-        Unordered list
+        <h3> Unordered list </h3>
         <ul>
             <li> Page 1 </li>
             <li> Page 2 </li>
             <li> Page 3 </li>
         </ul>
-        Ordered list
+        <h3> Ordered list </h3>
         <ol>
           <li> Page 1 </li>
           <li> Page 2 </li>
           <li> Page 3 </li>
         </ol>
+        <table>
+            <tr>
+                <th> Recipe Name </th>
+                <th> Cuisine Type </th>
+                <th> Vegetarian </th>
+            </tr>
+            <tr>
+                <td> Beef Burger </td>
+                <td> American </td>
+                <td> No </td>
+            </tr>
+            <tr>
+                <td> Shawarma </td>
+                <td> Medditeranean </td>
+                <td> Yes </td>
+            </tr>
+        </table>
         Adding this line for feature!
-        <img src="steak.jpeg" alt="steak">
+
+        <img src="steak.jpeg" alt="steak" width="50%">
     </body>
 </html>
